@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T07:36:46.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="gz55olFXIvzr8wu7iveC" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T08:37:31.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="8Vy2KANnQDw4QuOTbOHp" version="15.8.8" type="github">
   <diagram id="FjAEv_3uUnPhrMAkXt-9" name="Page-1">
     <mxGraphModel dx="4722" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -120,19 +120,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RqPFMmIZ2FTs6EOz_FOU-17" value="my_fshadow_readreq_err()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="349" y="1940" width="190" height="50" as="geometry" />
+          <mxGeometry x="354" y="1937.5" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RqPFMmIZ2FTs6EOz_FOU-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-19" target="RqPFMmIZ2FTs6EOz_FOU-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RqPFMmIZ2FTs6EOz_FOU-19" value="my_fshadow_ioqueue_dequeue1()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="335" y="2090" width="230" height="55" as="geometry" />
+          <mxGeometry x="334" y="2090" width="230" height="55" as="geometry" />
         </mxCell>
         <mxCell id="RqPFMmIZ2FTs6EOz_FOU-21" value="my_fshadow_slot_free()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="369" y="2200" width="160" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="RqPFMmIZ2FTs6EOz_FOU-24" value="my_fshadow_readreq_err()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="779" y="1935" width="230" height="55" as="geometry" />
+          <mxGeometry x="764" y="1935" width="230" height="55" as="geometry" />
         </mxCell>
         <mxCell id="D6DmgnndptHay-srKGgo-1" value="&lt;h1&gt;无锁与锁&lt;/h1&gt;&lt;p&gt;fd_cont是只有一个，即使这个文件被打开了很多次。&lt;/p&gt;&lt;p&gt;fd_cont的处理是用的上锁的机制。而myf_file.f_offset用的是原子变量。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="920" width="420" height="100" as="geometry" />
@@ -286,7 +286,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="D6DmgnndptHay-srKGgo-65" value="my_fshadow_overlapped_initrd1()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="744" y="1722.5" width="230" height="55" as="geometry" />
+          <mxGeometry x="764" y="1722.5" width="230" height="55" as="geometry" />
         </mxCell>
         <mxCell id="D6DmgnndptHay-srKGgo-72" value="struct my_fshadow_slot" style="swimlane;opacity=40;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1060" width="230" height="490" as="geometry" />
@@ -314,6 +314,12 @@
         </mxCell>
         <mxCell id="D6DmgnndptHay-srKGgo-81" value="子类父类的嵌套" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="1840" y="1345" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-83" value="&lt;h1&gt;io_queue&lt;/h1&gt;&lt;p&gt;1. 每个slot都会创建一个io_queue&lt;/p&gt;&lt;p&gt;2. 每个queu都有一个list. 里面放的是slot&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="1470" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-84" value="&lt;h1&gt;信息的冗余&lt;/h1&gt;&lt;p&gt;有一部分信息在my_fshadow_overlapped和myf_overlapped是被重复赋值的。这个原因主要是因为vfs里面只能看到统一的视角。&lt;span&gt;myf_overlapped&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="1225" width="490" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
