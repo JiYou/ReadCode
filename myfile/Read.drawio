@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T11:21:55.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="d8vdYBE0qW27FuYzM22o" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T07:36:46.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="gz55olFXIvzr8wu7iveC" version="15.8.8" type="github">
   <diagram id="FjAEv_3uUnPhrMAkXt-9" name="Page-1">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4722" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="D6DmgnndptHay-srKGgo-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;opacity=40;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1200" width="220" height="850" as="geometry" />
+        </mxCell>
         <mxCell id="aP7m1-uafCFphGfOBbi7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aP7m1-uafCFphGfOBbi7-1" target="aP7m1-uafCFphGfOBbi7-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -37,25 +40,25 @@
         <mxCell id="aP7m1-uafCFphGfOBbi7-9" value="my_fshadow_sread()" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="390" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aP7m1-uafCFphGfOBbi7-11" value="&lt;h1&gt;sync_read&lt;/h1&gt;&lt;p style=&quot;margin: 8px 0px ; font-family: &amp;#34;segoe wpc&amp;#34; , &amp;#34;segoe ui&amp;#34; , sans-serif ; font-size: 14px&quot;&gt;Sync read data from sf.&lt;br&gt;- It must be called with sf opened with MY_FSHADOW_OMODE_AUTOSZ.&lt;br&gt;- seq contains the offset. It will be updated atomically to the&lt;br&gt;final read offset+read len.&lt;/p&gt;&lt;p style=&quot;margin: 8px 0px 0px ; font-family: &amp;#34;segoe wpc&amp;#34; , &amp;#34;segoe ui&amp;#34; , sans-serif ; font-size: 14px&quot;&gt;Return -1 upon failure, or # of bytes read. If blen is not 0, but 0&lt;br&gt;is returned, then EOF has been reached.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="520" y="650" width="460" height="160" as="geometry" />
+        <mxCell id="aP7m1-uafCFphGfOBbi7-11" value="&lt;h1&gt;sync_read&lt;/h1&gt;&lt;p style=&quot;margin: 8px 0px ; font-family: &amp;#34;segoe wpc&amp;#34; , &amp;#34;segoe ui&amp;#34; , sans-serif ; font-size: 14px&quot;&gt;Sync read data from sf.&lt;br&gt;- It must be called with sf opened with &lt;b&gt;&lt;font color=&quot;#ff0a3b&quot;&gt;MY_FSHADOW_OMODE_AUTOSZ&lt;/font&gt;&lt;/b&gt;.&lt;br&gt;- seq contains the &lt;b&gt;&lt;font color=&quot;#ff0a3b&quot;&gt;offset&lt;/font&gt;&lt;/b&gt;. It will be updated atomically to the&lt;br&gt;final read offset+read len.&lt;/p&gt;&lt;p style=&quot;margin: 8px 0px 0px ; font-family: &amp;#34;segoe wpc&amp;#34; , &amp;#34;segoe ui&amp;#34; , sans-serif ; font-size: 14px&quot;&gt;1. Return -1 upon failure, or # of bytes read.&lt;br&gt;2. If blen is not 0, but 0&lt;br&gt;is returned, then EOF has been reached.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="650" width="590" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="aP7m1-uafCFphGfOBbi7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="aP7m1-uafCFphGfOBbi7-12" target="aP7m1-uafCFphGfOBbi7-15" edge="1">
+        <mxCell id="D6DmgnndptHay-srKGgo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.542;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aP7m1-uafCFphGfOBbi7-12" target="D6DmgnndptHay-srKGgo-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aP7m1-uafCFphGfOBbi7-12" value="fp-&amp;gt;f_offset" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="390" y="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aP7m1-uafCFphGfOBbi7-14" value="&lt;h1&gt;竞态&lt;/h1&gt;&lt;p&gt;类似于fp，有可能多个线程都在操作这个fp。所以针对这个变量的更新，需要使用atomic操作.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="520" y="820" width="190" height="120" as="geometry" />
+        <mxCell id="aP7m1-uafCFphGfOBbi7-14" value="&lt;h1&gt;竞态&lt;/h1&gt;&lt;p&gt;1. 类似于fp，有可能多个线程都在操作这个fp。所以针对这个变量的更新，需要使用atomic操作.&lt;br&gt;2. 无锁的时候，要注意不停用buf_len + offset与size做互动&lt;br&gt;3. 注意：fp里面记录的是文件指针操作的offset，而fd_cont.size记录的是文件的大小&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="520" y="820" width="520" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aP7m1-uafCFphGfOBbi7-15" target="RqPFMmIZ2FTs6EOz_FOU-6">
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aP7m1-uafCFphGfOBbi7-15" target="RqPFMmIZ2FTs6EOz_FOU-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="1100" as="targetPoint" />
+            <mxPoint x="449" y="1310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aP7m1-uafCFphGfOBbi7-15" value="my_fshadow_pread_slot" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="350" y="970" width="200" height="60" as="geometry" />
+        <mxCell id="aP7m1-uafCFphGfOBbi7-15" value="my_fshadow_pread_slot()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="349" y="1200" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aP7m1-uafCFphGfOBbi7-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="340" y="130" width="50" height="90" as="geometry" />
@@ -69,79 +72,248 @@
         <mxCell id="aP7m1-uafCFphGfOBbi7-20" value="&lt;font style=&quot;font-size: 18px&quot;&gt;file&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="230" y="430" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=270;" vertex="1" parent="1">
-          <mxGeometry x="755" y="1010" width="70" height="300" as="geometry" />
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=270;" parent="1" vertex="1">
+          <mxGeometry x="89" y="1250" width="70" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-4" value="vfs.pread != NULL &amp;amp;&amp;amp;&lt;br&gt;vfs.io_max = 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="1190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-5" value="vfs.pread != NULL &amp;amp;&amp;amp;&lt;br&gt;readlen &amp;lt; vfs.io_max" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-6" target="RqPFMmIZ2FTs6EOz_FOU-3">
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-6" target="RqPFMmIZ2FTs6EOz_FOU-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-9" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RqPFMmIZ2FTs6EOz_FOU-7">
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-9" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RqPFMmIZ2FTs6EOz_FOU-7" vertex="1" connectable="0">
           <mxGeometry x="-0.4214" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-6">
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="1280" as="targetPoint" />
+            <mxPoint x="449" y="1490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-10" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RqPFMmIZ2FTs6EOz_FOU-8">
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-10" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RqPFMmIZ2FTs6EOz_FOU-8" vertex="1" connectable="0">
           <mxGeometry x="-0.0069" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-6" value="走pread吗？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1075" width="160" height="60" as="geometry" />
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-6" value="走pread吗？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="369" y="1285" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-11" target="RqPFMmIZ2FTs6EOz_FOU-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-12" value="vfs.pread()" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="64" y="1595" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=270;" vertex="1" parent="1">
-          <mxGeometry x="765" y="1125" width="50" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-12" value="vfs.pread()" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="730" y="1330" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-14" target="RqPFMmIZ2FTs6EOz_FOU-16">
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-14" target="RqPFMmIZ2FTs6EOz_FOU-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="1410" as="targetPoint" />
+            <mxPoint x="449" y="1620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-14" value="my_fshadow_slot_alloc()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1280" width="160" height="50" as="geometry" />
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-14" value="my_fshadow_slot_alloc()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="369" y="1490" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-16" target="RqPFMmIZ2FTs6EOz_FOU-17">
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-16" target="RqPFMmIZ2FTs6EOz_FOU-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-16" value="overlapped_initrd()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1380" width="120" height="60" as="geometry" />
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-16" value="overlapped_initrd()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="389" y="1720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-17" target="RqPFMmIZ2FTs6EOz_FOU-19">
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-17" target="RqPFMmIZ2FTs6EOz_FOU-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-17" target="RqPFMmIZ2FTs6EOz_FOU-24">
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-17" target="RqPFMmIZ2FTs6EOz_FOU-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-17" value="my_fshadow_readreq_err()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="355" y="1500" width="190" height="50" as="geometry" />
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-17" value="my_fshadow_readreq_err()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="349" y="1940" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-19" target="RqPFMmIZ2FTs6EOz_FOU-21">
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RqPFMmIZ2FTs6EOz_FOU-19" target="RqPFMmIZ2FTs6EOz_FOU-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-19" value="my_fshadow_ioqueue_dequeue1()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="335" y="1625" width="230" height="55" as="geometry" />
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-19" value="my_fshadow_ioqueue_dequeue1()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="335" y="2090" width="230" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-21" value="my_fshadow_slot_free()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1757.5" width="160" height="42.5" as="geometry" />
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-21" value="my_fshadow_slot_free()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="369" y="2200" width="160" height="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-24" value="my_fshadow_readreq_err()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1497" width="230" height="55" as="geometry" />
+        <mxCell id="RqPFMmIZ2FTs6EOz_FOU-24" value="my_fshadow_readreq_err()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="779" y="1935" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-1" value="&lt;h1&gt;无锁与锁&lt;/h1&gt;&lt;p&gt;fd_cont是只有一个，即使这个文件被打开了很多次。&lt;/p&gt;&lt;p&gt;fd_cont的处理是用的上锁的机制。而myf_file.f_offset用的是原子变量。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="920" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-2" value="&lt;h1&gt;ioclass&lt;/h1&gt;&lt;p&gt;.type = read&lt;/p&gt;&lt;p&gt;.flag = 文件操作的falg = 0&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="520" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-3" value="问题：fd_cont.size_lock会不会同时锁住了fp-&amp;gt;offset和fd_cont.size?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="800" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-4" target="aP7m1-uafCFphGfOBbi7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-4" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.locked;" vertex="1" parent="1">
+          <mxGeometry x="437" y="1070" width="24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-7" value="fd_cont.szlock -&amp;gt; ReadLock" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="461" y="1080" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-13" value="&lt;h1&gt;size的锁&lt;/h1&gt;&lt;p&gt;fd_cont的size读的时候，只需拿szrwlock_read就可以了。&lt;br&gt;而如果是要写，需要拿整个数据结构fd_cont lock以及szrwlock_write&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 4;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="624" y="1040" width="306" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-16" value="vfs.pread != NULL &amp;amp;&amp;amp;&lt;br&gt;readlen &amp;lt; vfs.io_max" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="214" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-17" value="vfs.pread != NULL &amp;amp;&amp;amp;&lt;br&gt;vfs.io_max = 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-86" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0A3B;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-18" target="RqPFMmIZ2FTs6EOz_FOU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="82.25" y="1381.75" width="83.5" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" target="D6DmgnndptHay-srKGgo-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529" y="1515.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-25" target="D6DmgnndptHay-srKGgo-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-25" value="my_fshadow_slot_aclloc()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="764" y="1487.5" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-26" value="&lt;h1&gt;Slot管理&lt;/h1&gt;&lt;p&gt;1. slot context是全局的。如果不是直接走pread/pwrite。那么所有的线程都会来抢这个。&lt;/p&gt;&lt;p&gt;2. 分为read/write slot context&lt;/p&gt;&lt;p&gt;3. 默认提供256个slots&lt;/p&gt;&lt;p&gt;4. 不直接走vfs的pread/pwrite，那么就要来这里抢slot&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 4;fontColor=#000000;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1410" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="1515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-32" value="通过pthread_key拿到线程自己的waiter" style="rounded=1;whiteSpace=wrap;html=1;opacity=40;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="1515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-35" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#82b366;shadow=0;dashed=0;shape=mxgraph.ios7.icons.locked;opacity=40;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1500" width="24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-37" value="slot_context_lock" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="1470" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-43" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="D6DmgnndptHay-srKGgo-41">
+          <mxGeometry x="0.1733" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-40" target="D6DmgnndptHay-srKGgo-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="1365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-46" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="D6DmgnndptHay-srKGgo-42">
+          <mxGeometry x="-0.2727" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-40" value="能取走一个slot?" style="rhombus;whiteSpace=wrap;html=1;opacity=40;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1475" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1700" y="1515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-48" value="取走一个，free--" style="rounded=1;whiteSpace=wrap;html=1;opacity=40;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1790" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-50" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#d5e8d4;shape=mxgraph.mscae.enterprise.lock_unlocked;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1485" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-51" value="slot_context_lock" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1664.5" y="1455" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-53" value="Return Slot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="1500" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="1365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-54" value="把waiter加到slot_context的waiter_list里面" style="rounded=1;whiteSpace=wrap;html=1;opacity=40;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-56" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#d5e8d4;shape=mxgraph.mscae.enterprise.lock_unlocked;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1335" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-57" value="slot_context_lock" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1412" y="1305" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-59" target="D6DmgnndptHay-srKGgo-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1630" y="1245" />
+              <mxPoint x="1219" y="1245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-62" value="被唤醒了，那么重新去队列中尝试拿一下" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="D6DmgnndptHay-srKGgo-61">
+          <mxGeometry x="-0.5728" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-59" value="借助waiter开始等&lt;br&gt;如果有人free &amp;amp; list的头一个，那么被唤醒" style="rounded=1;whiteSpace=wrap;html=1;opacity=40;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" target="D6DmgnndptHay-srKGgo-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509" y="1750.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-65" value="my_fshadow_overlapped_initrd1()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="744" y="1722.5" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-72" value="struct my_fshadow_slot" style="swimlane;opacity=40;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1060" width="230" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-73" value="ss_link 把所有的slot放在一个链表里面" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="D6DmgnndptHay-srKGgo-72">
+          <mxGeometry x="10" y="30" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-74" value="ss_ctx指出slot属于哪个slot_context" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="D6DmgnndptHay-srKGgo-72">
+          <mxGeometry x="10" y="100" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-75" value="struct my_fshadow_overlapped" style="swimlane;opacity=40;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="D6DmgnndptHay-srKGgo-72">
+          <mxGeometry x="10" y="170" width="210" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-76" value="struct myf_overlapped" style="swimlane;fontColor=#ffffff;opacity=40;fillColor=#d80073;strokeColor=#A50040;" vertex="1" parent="D6DmgnndptHay-srKGgo-75">
+          <mxGeometry y="20" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-77" value="myf_io_queue" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;opacity=40;fillColor=#0050ef;strokeColor=#001DBC;" vertex="1" parent="D6DmgnndptHay-srKGgo-72">
+          <mxGeometry x="10" y="430" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-78" value="Slot的内存结构&amp;nbsp;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=40;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="1942" y="1020" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-80" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#000000;gradientColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1230" width="20" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="D6DmgnndptHay-srKGgo-81" value="子类父类的嵌套" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1345" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
