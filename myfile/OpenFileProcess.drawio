@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T08:20:50.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="iw1JhO_N2-AiUVlsarrD" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T08:37:11.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="trfThslpCM012KyAP0nL" version="15.8.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="542" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -334,21 +334,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S21cvZebMdiASYtHkf3q-109" value="my_fshadow_fd" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontSize=9;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="2772" y="827" width="140" height="90" as="geometry" />
+          <mxGeometry x="2772" y="797" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="S21cvZebMdiASYtHkf3q-111" value="sf_file = void *指针" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=9;" parent="S21cvZebMdiASYtHkf3q-109" vertex="1">
+        <mxCell id="S21cvZebMdiASYtHkf3q-111" value="sf_file = void *指针" style="text;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=9;fontColor=#ffffff;" parent="S21cvZebMdiASYtHkf3q-109" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S21cvZebMdiASYtHkf3q-112" value="sf_cont指针" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=9;" parent="S21cvZebMdiASYtHkf3q-109" vertex="1">
+        <mxCell id="S21cvZebMdiASYtHkf3q-112" value="sf_cont指针" style="text;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=9;fontColor=#ffffff;" parent="S21cvZebMdiASYtHkf3q-109" vertex="1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S21cvZebMdiASYtHkf3q-114" value="&lt;h1&gt;vfs内部file&lt;/h1&gt;&lt;p&gt;sf_file指向vfs内部实现的各种file数据结构，vfs内部爱怎么搞就怎么搞&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=9;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="2977" y="838" width="117" height="91" as="geometry" />
+          <mxGeometry x="2957" y="808" width="117" height="91" as="geometry" />
         </mxCell>
         <mxCell id="S21cvZebMdiASYtHkf3q-116" value="my_fshadow_fd_cont" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontSize=9;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2772" y="767" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S21cvZebMdiASYtHkf3q-117" value="struct my_fshadow_fd内存" style="text;strokeColor=#6F0000;fillColor=#a20025;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=9;fontColor=#ffffff;" parent="S21cvZebMdiASYtHkf3q-116" vertex="1">
+        <mxCell id="S21cvZebMdiASYtHkf3q-117" value="struct my_fshadow_fd内存" style="text;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=9;fontColor=#ffffff;" parent="S21cvZebMdiASYtHkf3q-116" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S21cvZebMdiASYtHkf3q-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.374;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=9;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="S21cvZebMdiASYtHkf3q-111" target="S21cvZebMdiASYtHkf3q-114" edge="1">
@@ -645,6 +645,32 @@
         </mxCell>
         <mxCell id="S21cvZebMdiASYtHkf3q-230" value="setsize" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=9;fontColor=#000000;arcSize=7;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1832.5" y="1719" width="50" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="_iXJvx4fyS74VDj60ts7-1" value="my::fshadow::slot" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontSize=9;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2772" y="972" width="140" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="_iXJvx4fyS74VDj60ts7-2" value="my_fshadow_overlapped" style="text;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=9;fontColor=#ffffff;" vertex="1" parent="_iXJvx4fyS74VDj60ts7-1">
+          <mxGeometry y="30" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_iXJvx4fyS74VDj60ts7-10" value="myf_overlapped" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontSize=9;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="_iXJvx4fyS74VDj60ts7-1">
+          <mxGeometry y="65" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_iXJvx4fyS74VDj60ts7-11" value="sov_sfc 指向本层fd_cont" style="text;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=9;fontColor=#ffffff;" vertex="1" parent="_iXJvx4fyS74VDj60ts7-10">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_iXJvx4fyS74VDj60ts7-12" value="sov_vops 指向vfs的ops" style="text;strokeColor=#314354;fillColor=#647687;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;fontSize=9;fontColor=#ffffff;" vertex="1" parent="_iXJvx4fyS74VDj60ts7-10">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_iXJvx4fyS74VDj60ts7-14" value="&lt;h1&gt;Slot内存布局&lt;/h1&gt;&lt;p&gt;1. slot包含了my_fshadow_overlapped&lt;/p&gt;&lt;p&gt;2. my_fshadow_overlapped里面包含了myf_overlapped&lt;/p&gt;&lt;p&gt;3. 这种包含不是指针关系&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2914" y="972" width="307" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_iXJvx4fyS74VDj60ts7-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_iXJvx4fyS74VDj60ts7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2752" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_iXJvx4fyS74VDj60ts7-17" value="&lt;h1&gt;vops赋值顺序&lt;/h1&gt;&lt;p&gt;1. 通过fs找到vfs的ops symbl&lt;/p&gt;&lt;p&gt;2. 将file setting的vops赋值给fd_cont.sfc_vops. 在fd_alloc的时候&lt;/p&gt;&lt;p&gt;3. 初始化sov_vops的时候，将其指向fd_cont.sfc_vops&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2914" y="1097.31" width="361" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
