@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T01:13:06.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="PK2Qb38_xBMHBv5AbcZb" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-06T01:17:55.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="2RaXaxjgZ4unbf9AifNd" version="15.8.8" type="github">
   <diagram id="FjAEv_3uUnPhrMAkXt-9" name="Page-1">
     <mxGraphModel dx="4485" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -181,7 +181,7 @@
         <mxCell id="D6DmgnndptHay-srKGgo-25" value="my_fshadow_slot_aclloc()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="764" y="1487.5" width="230" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="D6DmgnndptHay-srKGgo-26" value="&lt;h1&gt;Slot管理&lt;/h1&gt;&lt;p&gt;1. slot context是全局的。如果不是直接走pread/pwrite。那么所有的线程都会来抢这个。&lt;/p&gt;&lt;p&gt;2. 分为read/write slot context&lt;/p&gt;&lt;p&gt;3. 默认提供256个slots&lt;/p&gt;&lt;p&gt;4. 不直接走vfs的pread/pwrite，那么就要来这里抢slot&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 4;fontColor=#000000;opacity=40;" vertex="1" parent="1">
+        <mxCell id="D6DmgnndptHay-srKGgo-26" value="&lt;h1&gt;Slot管理&lt;/h1&gt;&lt;p&gt;1. slot context是全局的。如果不是直接走pread/pwrite。那么所有的线程都会来抢这个。&lt;/p&gt;&lt;p&gt;2. 分为read/write slot context&lt;/p&gt;&lt;p&gt;3. read/write各自默认提供256个slots&lt;/p&gt;&lt;p&gt;4. 不直接走vfs的pread/pwrite，那么就要来这里抢slot&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;dashPattern=1 4;fontColor=#000000;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="570" y="1410" width="320" height="160" as="geometry" />
         </mxCell>
         <mxCell id="D6DmgnndptHay-srKGgo-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="D6DmgnndptHay-srKGgo-32">
