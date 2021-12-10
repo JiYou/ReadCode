@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T01:29:10.632Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="iyPgYHU_PpnjFlwF7CNN" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T01:33:33.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="vI6goa3n0EmARF6eFh5l" version="15.9.1" type="github">
   <diagram id="FjAEv_3uUnPhrMAkXt-9" name="Page-1">
-    <mxGraphModel dx="4722" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4797" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="874" y="2030" width="1026" height="390" as="geometry" />
+        </mxCell>
         <mxCell id="D6DmgnndptHay-srKGgo-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;opacity=40;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="350" y="1200" width="220" height="850" as="geometry" />
         </mxCell>
@@ -731,6 +734,9 @@
         </mxCell>
         <mxCell id="E2Yp4QjCYOfhFSY221A6-32" value="&lt;h1&gt;io的结果放到queue&lt;/h1&gt;&lt;p&gt;如果是同步的IO。那么发起者会在等。&lt;br&gt;my_fshadow_pread_slot&lt;br&gt;&amp;nbsp; &amp;nbsp; -&amp;gt;my_fshadow_ioqueue_dequeue1()&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="413.13" y="3420" width="276.25" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-35" value="&lt;h1&gt;令牌桶算法&lt;/h1&gt;&lt;p&gt;这里用令牌桶算法来进行一定速率的调整&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="900" y="2281" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
