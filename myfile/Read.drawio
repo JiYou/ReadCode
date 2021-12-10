@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T08:03:46.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="4ADWOHBLj828K1gN7mR3" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T01:06:01.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="gzIHZI5rnHgpVRvOYEl4" version="15.9.1" type="github">
   <diagram id="FjAEv_3uUnPhrMAkXt-9" name="Page-1">
     <mxGraphModel dx="4722" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -659,8 +659,47 @@
         <mxCell id="E2Yp4QjCYOfhFSY221A6-9" value="my_fshadow_vop_io_request" style="whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="1275.64" y="2710" width="176.24" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E2Yp4QjCYOfhFSY221A6-11" target="E2Yp4QjCYOfhFSY221A6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="E2Yp4QjCYOfhFSY221A6-11" value="vops-&amp;gt;vop_io_request" style="whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="1285.6299999999999" y="2850" width="156.24" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E2Yp4QjCYOfhFSY221A6-13" target="E2Yp4QjCYOfhFSY221A6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-13" value="rfs_vop_io_request" style="whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1303.75" y="2990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E2Yp4QjCYOfhFSY221A6-15" target="E2Yp4QjCYOfhFSY221A6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-15" value="my_redo_fs_readreq" style="whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1303.75" y="3130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E2Yp4QjCYOfhFSY221A6-17" target="E2Yp4QjCYOfhFSY221A6-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-17" value="my_redo_fs_readreq1" style="whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1303.75" y="3270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E2Yp4QjCYOfhFSY221A6-19" target="E2Yp4QjCYOfhFSY221A6-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-19" value="vfs_aio_readreq" style="whiteSpace=wrap;html=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1303.75" y="3410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E2Yp4QjCYOfhFSY221A6-21" target="E2Yp4QjCYOfhFSY221A6-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-21" value="vfs_aio_request" style="whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#3700CC;fillColor=#6a00ff;" vertex="1" parent="1">
+          <mxGeometry x="1303.75" y="3550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-23" value="kern_io_submit" style="whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#3700CC;fillColor=#6a00ff;" vertex="1" parent="1">
+          <mxGeometry x="1303.75" y="3690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E2Yp4QjCYOfhFSY221A6-25" value="&lt;h1&gt;rfs aio_context&lt;/h1&gt;&lt;p&gt;所有vfs里面的aio_context记录的都是vfs_aio.c里面静态变量aio_context。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1441.87" y="3250" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
