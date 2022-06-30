@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T06:04:19.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PzK_gxepYj1LWkCk3gCp" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-30T07:47:39.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="k2WiNTS62UN71QRf0SSe" version="16.6.5" type="github">
   <diagram id="qGnsM46PK79C-JhBi5WE" name="Page-1">
     <mxGraphModel dx="942" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -34,11 +34,59 @@
             <mxPoint x="1270" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="ZW7ZANE2hkEjGFUQtGQJ-14" target="ZW7ZANE2hkEjGFUQtGQJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-14" value="my_fshadow_slot_allocm(&lt;b&gt;dup_slotctx&lt;/b&gt;, ss_segs0, 2)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="676.25" y="380" width="357.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-16" value="&lt;font style=&quot;font-size: 20px&quot;&gt;dup_slotctx-&amp;gt;lock()&lt;br&gt;如果dup_slotctx-&amp;gt;nfree &amp;lt; 需要的&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;dup_slotctx-&amp;gt;unlock();&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;return false -&amp;gt; 让请求方自己去alloc&lt;br&gt;&lt;br&gt;dup_slotctx-&amp;gt;ssc_nfree -= nsegs;&lt;br&gt;for (i = 0; i &amp;lt; nsegs; i++) {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;ss=&amp;nbsp; 申请一个shadow_slot&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;ss_segs[i] = ss;&lt;br&gt;}&lt;br&gt;dup_slotctx-&amp;gt;unlock();&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1272.5" y="370" width="427.5" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="ZW7ZANE2hkEjGFUQtGQJ-18" target="ZW7ZANE2hkEjGFUQtGQJ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-18" value="i=0: ss指向正常的slot" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="675.25" y="520" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="ZW7ZANE2hkEjGFUQtGQJ-20" target="ZW7ZANE2hkEjGFUQtGQJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-20" value="i=1: ss指向dup的slot" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="675.25" y="660" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="ZW7ZANE2hkEjGFUQtGQJ-22" target="ZW7ZANE2hkEjGFUQtGQJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-22" value="my_fshadow_write_request1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="790" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="ZW7ZANE2hkEjGFUQtGQJ-24" target="ZW7ZANE2hkEjGFUQtGQJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-24" value="my_fshadow_write_request" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="930" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="ZW7ZANE2hkEjGFUQtGQJ-26" target="ZW7ZANE2hkEjGFUQtGQJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-26" value="my_fshadow_writereq_err" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1070" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="ZW7ZANE2hkEjGFUQtGQJ-28" target="ZW7ZANE2hkEjGFUQtGQJ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-28" value="my_fshadow_writereq_nocache" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="1210" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="ZW7ZANE2hkEjGFUQtGQJ-30" target="ZW7ZANE2hkEjGFUQtGQJ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-30" value="my_fshadow_writereq_nocache1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1350" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZW7ZANE2hkEjGFUQtGQJ-34" value="" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
