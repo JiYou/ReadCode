@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T06:28:22.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yyz7LFey3E3-7udFgkX-" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T03:32:01.686Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FielM0HIJ462USysrPAb" version="20.2.0" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -225,11 +225,29 @@
         <mxCell id="V0GBCuVhsDUneNpyOq4p-78" value="BaseWorkflows.cs::UpsertServerAsync" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1005" y="3320" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="V0GBCuVhsDUneNpyOq4p-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V0GBCuVhsDUneNpyOq4p-80" target="V0GBCuVhsDUneNpyOq4p-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="V0GBCuVhsDUneNpyOq4p-80" value="vnet injection?" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="3320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V0GBCuVhsDUneNpyOq4p-82" value="&lt;h1&gt;vnet&lt;/h1&gt;&lt;p&gt;如果vnet不空为，那么就把vnet的信息设置上去。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1500" y="3320" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="V0GBCuVhsDUneNpyOq4p-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V0GBCuVhsDUneNpyOq4p-83" target="V0GBCuVhsDUneNpyOq4p-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0GBCuVhsDUneNpyOq4p-83" value="SetAdditionalVnetInfo" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="3460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V0GBCuVhsDUneNpyOq4p-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V0GBCuVhsDUneNpyOq4p-85" target="V0GBCuVhsDUneNpyOq4p-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0GBCuVhsDUneNpyOq4p-85" value="处理HA" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="3600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V0GBCuVhsDUneNpyOq4p-87" value="" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="3740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
