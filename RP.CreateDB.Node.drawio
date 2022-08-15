@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T07:54:18.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XW36J3z_-fsQaOimtnYz" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T08:33:48.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UgX0XtunHQDig59KhPi6" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -345,7 +345,10 @@
           <mxGeometry x="1830" y="4590" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T3_9DTncUeGPF8RhalXn-20" value="&lt;h1&gt;EnableActorBasedStateMachine&lt;/h1&gt;&lt;p&gt;这个默认是打开的。并且如果不是create Dnc的话，就会去拿spec&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="4290" width="390" height="120" as="geometry" />
+          <mxGeometry x="1700" y="4310" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-21" value="&lt;h1&gt;ActorFactory&lt;/h1&gt;&lt;p&gt;这个会根据SpecType来创建Actor&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="4180" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
