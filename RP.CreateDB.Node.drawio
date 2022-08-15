@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T09:02:20.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="NwOkLLHhhJGnuKDsnawk" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T09:22:56.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7D4fzPsl6bpEBl9gEb75" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
-    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,7 +237,7 @@
           <mxGeometry x="185" y="3610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V0GBCuVhsDUneNpyOq4p-82" value="&lt;h1&gt;vnet&lt;/h1&gt;&lt;p&gt;如果vnet不空为，那么就把vnet的信息设置上去。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="3320" width="190" height="120" as="geometry" />
+          <mxGeometry x="330" y="3610" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="V0GBCuVhsDUneNpyOq4p-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V0GBCuVhsDUneNpyOq4p-83" target="V0GBCuVhsDUneNpyOq4p-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -375,6 +375,51 @@
         </mxCell>
         <mxCell id="T3_9DTncUeGPF8RhalXn-28" value="然后不停地通过Spec拿到Actor，再通过Actor得到相应的subspec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2290" y="4270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-30" value="&lt;h1&gt;Actor模式总的设计&lt;/h1&gt;&lt;p&gt;首先会拿到一个rootSpec。通过这个rootSpec会执行一个rootActor&lt;/p&gt;&lt;p&gt;如果这个rootActor还需做一些子动作。那么就会有subSpec。然后就取出所有的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;执行的过程:我们总是通过Spec找到Actor&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1. 拿到rootSpec之后，我们找到rootActor。根据字符映射表&lt;/p&gt;&lt;p&gt;2. 拿到rootActor之后，我们执行rootActor.GetSubSpecs()然后得到Aspec和Bspec。&lt;/p&gt;&lt;p&gt;3. 通过Aspec拿到Aactor，当Aactor执行结束之后：&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;a. 再通遍历Bspec，拿到Bactor。&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;总之是个树型遍历的过程。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="1830" width="395" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-31" value="rootSpec" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="832.5" y="1670" as="sourcePoint" />
+            <mxPoint x="782.5" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="888" y="1670" as="sourcePoint" />
+            <mxPoint x="940" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-34" value="Aspec" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="1720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-35" value="BSpec" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="915" y="1725" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-36" value="rootActor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1137.5" y="1605" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="1675" as="sourcePoint" />
+            <mxPoint x="1100" y="1735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1205.5" y="1675" as="sourcePoint" />
+            <mxPoint x="1257.5" y="1735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-39" value="Aactor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1725" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-40" value="Bactor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="1730" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
