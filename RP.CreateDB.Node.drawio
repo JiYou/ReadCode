@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T08:33:48.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UgX0XtunHQDig59KhPi6" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T09:01:33.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="s_7dTvwImpadFI2s5ot9" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -338,8 +338,16 @@
         <mxCell id="T3_9DTncUeGPF8RhalXn-13" value="拿到当前spec和rollbackspec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1617.5" y="4570" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="4590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="T3_9DTncUeGPF8RhalXn-16" value="rollbackSpec = ServerDeletionActor.CreateSpec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1830" y="4520" width="212.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-18" target="T3_9DTncUeGPF8RhalXn-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T3_9DTncUeGPF8RhalXn-18" value="spec&amp;nbsp; =&lt;br&gt;ServerCreationSpec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1830" y="4590" width="210" height="60" as="geometry" />
@@ -349,6 +357,18 @@
         </mxCell>
         <mxCell id="T3_9DTncUeGPF8RhalXn-21" value="&lt;h1&gt;ActorFactory&lt;/h1&gt;&lt;p&gt;这个会根据SpecType来创建Actor&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="4180" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-22" target="T3_9DTncUeGPF8RhalXn-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-22" value="&lt;div&gt;var fsm = GeneralRequestHandlerStateMachine.CreateInstance(&lt;br&gt;operationStateMachine.Context,&lt;/div&gt;&lt;div&gt;upsertSpec.SpecId,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; upsertSpec.ServerInstanceId.Value,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; secreteInput);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="4550" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-25" value="GeneralRequestHandlerStateMachine.TransitionInitialize()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="4410" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-27" value="&lt;h1&gt;从这里开始进入状态机&lt;/h1&gt;&lt;p&gt;进入到一个前序遍历的状态。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="4410" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
