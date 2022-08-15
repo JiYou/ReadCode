@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T03:01:20.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6jNnapSqHS3JIxHHF24K" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T07:27:58.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="lJHMvDobzNKNRU6M0zYy" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -296,6 +296,36 @@
         </mxCell>
         <mxCell id="Aiq3VP3pHhMcYK7OFooS-15" value="c#的一个公共库" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2120" y="4430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-1" target="T3_9DTncUeGPF8RhalXn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-1" value="&lt;h3&gt;ManagementOperationStateMachine&lt;/h3&gt;&lt;p&gt;这个状态机对应的是CMS数据库中的tbl_management_operations这张表的一个item.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="4290" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-4" target="T3_9DTncUeGPF8RhalXn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-4" value="UpsertServerManagementOperationV2:InitiateOperation()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="4300" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-8" target="T3_9DTncUeGPF8RhalXn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-8" value="PreConditionCheck/PostConditionCheck" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="4440" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-10" value="&lt;h1&gt;操作开始前和结束后的检查&lt;/h1&gt;&lt;p&gt;前置条件和结束后的条件的检查&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="4440" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-11" target="T3_9DTncUeGPF8RhalXn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-11" value="GetSpec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="4580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T3_9DTncUeGPF8RhalXn-13" value="拿到当前spec和rollbackspec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="4580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
