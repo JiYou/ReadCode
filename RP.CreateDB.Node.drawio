@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T09:22:56.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7D4fzPsl6bpEBl9gEb75" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-29T09:02:13.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="76_K0Zkj1rEN8ieEBRbP" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
-    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="5378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -254,20 +254,14 @@
         <mxCell id="Aiq3VP3pHhMcYK7OFooS-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V0GBCuVhsDUneNpyOq4p-87" target="Aiq3VP3pHhMcYK7OFooS-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Aiq3VP3pHhMcYK7OFooS-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V0GBCuVhsDUneNpyOq4p-87" target="Aiq3VP3pHhMcYK7OFooS-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="V0GBCuVhsDUneNpyOq4p-87" value="UpsertServerManagementOperationV2:start" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="3870" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V0GBCuVhsDUneNpyOq4p-87" value="UpsertServerManagementOperationV2" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="175" y="3870" width="235" height="60" as="geometry" />
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aiq3VP3pHhMcYK7OFooS-1" target="Aiq3VP3pHhMcYK7OFooS-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aiq3VP3pHhMcYK7OFooS-1" value="event通知机制" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="3970" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Aiq3VP3pHhMcYK7OFooS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Aiq3VP3pHhMcYK7OFooS-3" target="Aiq3VP3pHhMcYK7OFooS-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Aiq3VP3pHhMcYK7OFooS-3" value="UpsertServerManagementOperationV2.start" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="810" y="3730" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aiq3VP3pHhMcYK7OFooS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Aiq3VP3pHhMcYK7OFooS-5" target="Aiq3VP3pHhMcYK7OFooS-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -302,124 +296,166 @@
         <mxCell id="Aiq3VP3pHhMcYK7OFooS-15" value="c#的一个公共库" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="997.5" y="4430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-1" target="T3_9DTncUeGPF8RhalXn-4">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3_9DTncUeGPF8RhalXn-1" target="T3_9DTncUeGPF8RhalXn-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-1" value="&lt;h3&gt;ManagementOperationStateMachine&lt;/h3&gt;&lt;p&gt;这个状态机对应的是CMS数据库中的tbl_management_operations这张表的一个item.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-1" value="&lt;h3&gt;ManagementOperationStateMachine&lt;/h3&gt;&lt;p&gt;这个状态机对应的是CMS数据库中的tbl_management_operations这张表的一个item.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="857.5" y="4280" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-4" target="T3_9DTncUeGPF8RhalXn-8">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3_9DTncUeGPF8RhalXn-4" target="T3_9DTncUeGPF8RhalXn-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-4" value="UpsertServerManagementOperationV2:InitiateOperation()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-4" value="UpsertServerManagementOperationV2:InitiateOperation()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1267.5" y="4290" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-8" target="T3_9DTncUeGPF8RhalXn-11">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3_9DTncUeGPF8RhalXn-8" target="T3_9DTncUeGPF8RhalXn-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-8" value="PreConditionCheck/PostConditionCheck" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-8" value="PreConditionCheck/PostConditionCheck" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1337.5" y="4430" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-10" value="&lt;h1&gt;操作开始前和结束后的检查&lt;/h1&gt;&lt;p&gt;前置条件和结束后的条件的检查&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-10" value="&lt;h1&gt;操作开始前和结束后的检查&lt;/h1&gt;&lt;p&gt;前置条件和结束后的条件的检查&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1627.5" y="4430" width="310" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-11" target="T3_9DTncUeGPF8RhalXn-13">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3_9DTncUeGPF8RhalXn-11" target="T3_9DTncUeGPF8RhalXn-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-11" value="GetSpec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-11" value="GetSpec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1417.5" y="4570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-13" target="T3_9DTncUeGPF8RhalXn-16">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3_9DTncUeGPF8RhalXn-13" target="T3_9DTncUeGPF8RhalXn-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-13" target="T3_9DTncUeGPF8RhalXn-18">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3_9DTncUeGPF8RhalXn-13" target="T3_9DTncUeGPF8RhalXn-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-13" value="拿到当前spec和rollbackspec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-13" value="拿到当前spec和rollbackspec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1617.5" y="4570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-16">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3_9DTncUeGPF8RhalXn-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2100" y="4590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-16" value="rollbackSpec = ServerDeletionActor.CreateSpec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-16" value="rollbackSpec = ServerDeletionActor.CreateSpec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1830" y="4520" width="212.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-18" target="T3_9DTncUeGPF8RhalXn-22">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3_9DTncUeGPF8RhalXn-18" target="T3_9DTncUeGPF8RhalXn-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-18" value="spec&amp;nbsp; =&lt;br&gt;ServerCreationSpec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-18" value="spec&amp;nbsp; =&lt;br&gt;ServerCreationSpec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1830" y="4590" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-20" value="&lt;h1&gt;EnableActorBasedStateMachine&lt;/h1&gt;&lt;p&gt;这个默认是打开的。并且如果不是create Dnc的话，就会去拿spec&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-20" value="&lt;h1&gt;EnableActorBasedStateMachine&lt;/h1&gt;&lt;p&gt;这个默认是打开的。并且如果不是create Dnc的话，就会去拿spec&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1700" y="4310" width="390" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-21" value="&lt;h1&gt;ActorFactory&lt;/h1&gt;&lt;p&gt;这个会根据SpecType来创建Actor&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-21" value="&lt;h1&gt;ActorFactory&lt;/h1&gt;&lt;p&gt;这个会根据SpecType来创建Actor&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="4180" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-22" target="T3_9DTncUeGPF8RhalXn-25">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3_9DTncUeGPF8RhalXn-22" target="T3_9DTncUeGPF8RhalXn-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-22" value="&lt;div&gt;var fsm = GeneralRequestHandlerStateMachine.CreateInstance(&lt;br&gt;operationStateMachine.Context,&lt;/div&gt;&lt;div&gt;upsertSpec.SpecId,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; upsertSpec.ServerInstanceId.Value,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; secreteInput);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-22" value="&lt;div&gt;var fsm = GeneralRequestHandlerStateMachine.CreateInstance(&lt;br&gt;operationStateMachine.Context,&lt;/div&gt;&lt;div&gt;upsertSpec.SpecId,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; upsertSpec.ServerInstanceId.Value,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; secreteInput);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2160" y="4550" width="380" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3_9DTncUeGPF8RhalXn-25" target="T3_9DTncUeGPF8RhalXn-28">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3_9DTncUeGPF8RhalXn-25" target="T3_9DTncUeGPF8RhalXn-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-25" value="GeneralRequestHandlerStateMachine.TransitionInitialize()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-25" value="GeneralRequestHandlerStateMachine.TransitionInitialize()" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2150" y="4410" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-27" value="&lt;h1&gt;从这里开始进入状态机&lt;/h1&gt;&lt;p&gt;进入到一个前序遍历的状态。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-27" value="&lt;h1&gt;从这里开始进入状态机&lt;/h1&gt;&lt;p&gt;进入到一个前序遍历的状态。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2570" y="4410" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-28" value="然后不停地通过Spec拿到Actor，再通过Actor得到相应的subspec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-28" value="然后不停地通过Spec拿到Actor，再通过Actor得到相应的subspec" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2290" y="4270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-30" value="&lt;h1&gt;Actor模式总的设计&lt;/h1&gt;&lt;p&gt;首先会拿到一个rootSpec。通过这个rootSpec会执行一个rootActor&lt;/p&gt;&lt;p&gt;如果这个rootActor还需做一些子动作。那么就会有subSpec。然后就取出所有的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;执行的过程:我们总是通过Spec找到Actor&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1. 拿到rootSpec之后，我们找到rootActor。根据字符映射表&lt;/p&gt;&lt;p&gt;2. 拿到rootActor之后，我们执行rootActor.GetSubSpecs()然后得到Aspec和Bspec。&lt;/p&gt;&lt;p&gt;3. 通过Aspec拿到Aactor，当Aactor执行结束之后：&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;a. 再通遍历Bspec，拿到Bactor。&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;总之是个树型遍历的过程。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-30" value="&lt;h1&gt;Actor模式总的设计&lt;/h1&gt;&lt;p&gt;首先会拿到一个rootSpec。通过这个rootSpec会执行一个rootActor&lt;/p&gt;&lt;p&gt;如果这个rootActor还需做一些子动作。那么就会有subSpec。然后就取出所有的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;执行的过程:我们总是通过Spec找到Actor&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1. 拿到rootSpec之后，我们找到rootActor。根据字符映射表&lt;/p&gt;&lt;p&gt;2. 拿到rootActor之后，我们执行rootActor.GetSubSpecs()然后得到Aspec和Bspec。&lt;/p&gt;&lt;p&gt;3. 通过Aspec拿到Aactor，当Aactor执行结束之后：&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;a. 再通遍历Bspec，拿到Bactor。&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;总之是个树型遍历的过程。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="712.5" y="1830" width="395" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-31" value="rootSpec" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-31" value="rootSpec" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="820" y="1600" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-32" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="832.5" y="1670" as="sourcePoint" />
             <mxPoint x="782.5" y="1730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-33" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="888" y="1670" as="sourcePoint" />
             <mxPoint x="940" y="1730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-34" value="Aspec" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-34" value="Aspec" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="712.5" y="1720" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-35" value="BSpec" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-35" value="BSpec" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="915" y="1725" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-36" value="rootActor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-36" value="rootActor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1137.5" y="1605" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-37" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1150" y="1675" as="sourcePoint" />
             <mxPoint x="1100" y="1735" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-38" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1205.5" y="1675" as="sourcePoint" />
             <mxPoint x="1257.5" y="1735" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-39" value="Aactor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-39" value="Aactor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1030" y="1725" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T3_9DTncUeGPF8RhalXn-40" value="Bactor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="T3_9DTncUeGPF8RhalXn-40" value="Bactor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1235" y="1730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-1" value="&lt;h1&gt;创建时的spec&lt;/h1&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/ActionActors/AzureFileShareCreationActor.cs&lt;/p&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/ActionActors/AzureFileShareDeletionActor.cs&lt;/p&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/ActionActors/FileShareCreationActor.cs&lt;/p&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/ActionActors/FileShareDeletionActor.cs&lt;/p&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/ActionActors/FileShareUpdateActor.cs&lt;/p&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/ActionActors/InstanceCookieFileRemovalActor.cs&lt;/p&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/ActionActors/InstanceCookieFileSetupActor.cs&lt;/p&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/ActionActors/ReplicationSetRoleFileCreationActor.cs&lt;/p&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/ActionActors/ReplicationSetSasTokenFileProcessActor.cs&lt;/p&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/ActionActors/ServerLogFileShareInitActor.cs&lt;/p&gt;&lt;p&gt;./OrcasBreadthRP/FSM/Code/Actors/LogicActors/ServerLogFileShareUpsertActor.cs&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="2230" width="537.5" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-3" target="y9hmc7ExkTuUqrcy4E5k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-3" value="&lt;h1&gt;Server.cs:191 CreateOrUpdate(ServerResource)&lt;/h1&gt;&lt;p&gt;&amp;nbsp;通过rest api的body放到serverResource.properties里面。&lt;br&gt;&lt;br&gt;- 这里不能做为成员变量是因为serverResource这个类的成员都是给ARM看的。&lt;br&gt;- serverResource.Properties里面的成员是我们自己用的。&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680.0000000000018" y="5" width="575" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-5" target="y9hmc7ExkTuUqrcy4E5k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-5" value="&lt;h1&gt;Server.cs:602 UpsertServerAsync(ServerResource)&lt;/h1&gt;&lt;p&gt;&amp;nbsp;把logOnDisk从ServerResource里面拿出来！&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="745.0000000000009" y="245" width="445" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-7" target="y9hmc7ExkTuUqrcy4E5k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-7" value="&lt;h1&gt;OrcasBreadthWorkflows:325 UpsertServerAsync(logOnDiskEnabled)&lt;/h1&gt;&lt;p&gt;- 把logOnDiskEnabled放到serverUpsertArguments这个变量里面去!&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360.000000000001" y="-10" width="445" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-9" target="y9hmc7ExkTuUqrcy4E5k-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-9" value="&lt;h1&gt;BaseWorkflows:775 UpsertServer&lt;br&gt;(internalServerUpsertArguments)&lt;/h1&gt;&lt;p&gt;&amp;nbsp;通过rest api的body放到serverResource.properties里面。&lt;br&gt;&lt;br&gt;- 这里不能做为成员变量是因为serverResource这个类的成员都是给ARM看的。&lt;br&gt;- serverResource.Properties里面的成员是我们自己用的。&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1950.000000000001" y="-10" width="445" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-11" target="y9hmc7ExkTuUqrcy4E5k-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-11" value="&lt;h1&gt;BaseWorkflows:871 调用&lt;br&gt;UpsertServerManagementOperationV2:start&lt;br&gt;(internalServerUpsertArguments)&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&amp;nbsp;- 直接把参数internalServerUpsertArguments传给Start&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1922.500000000001" y="230" width="500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-13" target="y9hmc7ExkTuUqrcy4E5k-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-13" value="&lt;h1&gt;UpsertServerManagementOperationV2.cs:Start(serverUpsertArgs)&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2490" width="776.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-15" value="&lt;h1&gt;ManagementOperationStateMachine.cs.cs:213 CreateInstance(object inputParameters)&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;ManagementOperationStateMachine.cs.cs:263&lt;br&gt;CreateInstance(object inputParameters)&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 在这个函数里面会把inputParameters传成xml&lt;br&gt;SqlXml serializedInputParams = GenericSqlXmlConverter&amp;lt;object&amp;gt;.ConvertToSqlXml(inputParameters);&lt;br&gt;&lt;br&gt;- 再利用xml参数生成stateMachine&lt;/div&gt;&lt;div&gt;stateMachine = new ManageOperationStateMachine(serializedInputParams)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="-85" width="776.25" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
