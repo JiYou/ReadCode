@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T09:15:20.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="8Su17_TW116n8SEgS2Ap" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-29T09:20:35.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_iAnVXOxnC51GK_dSoDk" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="1422" dy="5378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -462,8 +462,20 @@
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-15" value="&lt;h1&gt;ManagementOperationStateMachine.cs:213 CreateInstance(object inputParameters)&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;ManagementOperationStateMachine.cs:263&lt;br&gt;CreateInstance(object inputParameters)&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 在这个函数里面会把inputParameters传成xml&lt;br&gt;SqlXml serializedInputParams = GenericSqlXmlConverter&amp;lt;object&amp;gt;.ConvertToSqlXml(inputParameters);&lt;br&gt;&lt;br&gt;- 再利用xml参数生成stateMachine&lt;/div&gt;&lt;div&gt;stateMachine = new ManageOperationStateMachine(serializedInputParams)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt; 然后再存到基类OperationStateMachine.OperationParameters = parameterBag;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3360" y="-132.5" width="776.25" height="335" as="geometry" />
         </mxCell>
-        <mxCell id="y9hmc7ExkTuUqrcy4E5k-18" value="&lt;h1&gt;UpsertServerManagementOperationV2.cs:752 InitiateOperation(operationStateMachine)&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- var tuple = this.GetSpec(operationStateMachine);&amp;nbsp; &amp;lt;- 这里拿到tuple 782行&lt;br&gt;&lt;/p&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;this.SaveSpec(operationStateMachine, tuple.rollbackSpec, creationSpec.InstanceId);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;/p&gt;var fsm = GeneralRequestHandlerStateMachine.CreateInstance(operationStateMachine.Context, creationSpec.SpecId, creationSpec.InstanceId, secreteInput);" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-18" target="y9hmc7ExkTuUqrcy4E5k-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-18" value="&lt;h1&gt;UpsertServerManagementOperationV2.cs:752 InitiateOperation(operationStateMachine)&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- var tuple = this.GetSpec(operationStateMachine);&amp;nbsp; &amp;lt;- 这里拿到tuple 782行&lt;br&gt;&lt;/p&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;this.SaveSpec(operationStateMachine, tuple.rollbackSpec, creationSpec.InstanceId);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 812行&lt;/span&gt;&lt;/p&gt;var fsm = GeneralRequestHandlerStateMachine.CreateInstance(operationStateMachine.Context, creationSpec.SpecId, creationSpec.InstanceId, secreteInput);" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4250" y="-25" width="560" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-19" target="y9hmc7ExkTuUqrcy4E5k-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-19" value="&lt;h1&gt;GeneralRequestHandlerStateMachine.cs:812&lt;br&gt;&lt;/h1&gt;&lt;p&gt;这里生成GeneralRequestHandlerStateMachine fsm；然后fsmContext.InitializeInstance(fsm)&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4860" y="37.5" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-21" value="&lt;h1&gt;接下来就是看各种Actor&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4860" y="187.5" width="560" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
