@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T02:43:03.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2QIBurFzie_hhxh8TnKP" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T02:43:38.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HYiiecS9x0FtLQ-7Oma4" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="2585" dy="5948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -693,7 +693,7 @@
           <mxGeometry x="4970" y="2090" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-84" value="&lt;h1&gt;ManageDisk&lt;/h1&gt;&lt;div&gt;这里面每一个条目都是一个disk.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 在传参数的时候，可以先生成一个Guid&lt;/div&gt;&lt;div&gt;- 在添加条目的时候，可以直接用这个Guid来做为数据库里面的主键表示这个磁盘。&lt;/div&gt;&lt;div&gt;&amp;nbsp; 当创建成功之后，直接往这个数据库里面添加这个条目。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- ManageDisk里面，可能还需要加一个引用，就是replication_set_id。&lt;/div&gt;&lt;div&gt;&amp;nbsp; 通过这个replication_set_id，我可以知道当前这个磁盘是否是HA，以及通过replication_set_id&lt;/div&gt;&lt;div&gt;&amp;nbsp; 找到HA的primary和standby.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3190" y="590" width="1040" height="350" as="geometry" />
+          <mxGeometry x="3300" y="580" width="930" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
