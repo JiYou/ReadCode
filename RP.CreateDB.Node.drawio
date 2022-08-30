@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T02:43:38.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HYiiecS9x0FtLQ-7Oma4" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T03:13:59.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="PWuMA_d7wFQUBgpNn_Cz" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="2585" dy="5948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -694,6 +694,81 @@
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-84" value="&lt;h1&gt;ManageDisk&lt;/h1&gt;&lt;div&gt;这里面每一个条目都是一个disk.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 在传参数的时候，可以先生成一个Guid&lt;/div&gt;&lt;div&gt;- 在添加条目的时候，可以直接用这个Guid来做为数据库里面的主键表示这个磁盘。&lt;/div&gt;&lt;div&gt;&amp;nbsp; 当创建成功之后，直接往这个数据库里面添加这个条目。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- ManageDisk里面，可能还需要加一个引用，就是replication_set_id。&lt;/div&gt;&lt;div&gt;&amp;nbsp; 通过这个replication_set_id，我可以知道当前这个磁盘是否是HA，以及通过replication_set_id&lt;/div&gt;&lt;div&gt;&amp;nbsp; 找到HA的primary和standby.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3300" y="580" width="930" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-86" target="y9hmc7ExkTuUqrcy4E5k-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-86" value="ServerUpdationActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="9980" y="500" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87" target="y9hmc7ExkTuUqrcy4E5k-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87" target="y9hmc7ExkTuUqrcy4E5k-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87" target="y9hmc7ExkTuUqrcy4E5k-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87" target="y9hmc7ExkTuUqrcy4E5k-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87" target="y9hmc7ExkTuUqrcy4E5k-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="11150" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87" target="y9hmc7ExkTuUqrcy4E5k-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87" target="y9hmc7ExkTuUqrcy4E5k-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="12515.454545454544" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="13069.090909090908" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-87" value="InstanceUpdationActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="9980" y="730" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-89" value="ServerTagsUpdateActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="8640" y="1100" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-91" value="ServerPasswordUpdateActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="9080" y="1100" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-93" value="ServerBackupRetentionUpsertActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="9520" y="1105" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-95" value="InstanceComputeUpdateWithFailoverActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="9915" y="1102.5" width="450" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-97" value="OrcasServerStateTransitionActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="10530" y="1110" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-99" value="VirtualMachineComputeSizeReconcileActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="10950" y="1092.5" width="410" height="137.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-101" value="OrcasServerStateTransitionActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="11470" y="1115" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-112" value="GeoBackupReconcileActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="11880" y="1110" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-116" value="StorageSizeReconcileActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="12341" y="1140" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-118" value="AutogrowReconcileActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="12880" y="1160" width="320" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
