@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T03:13:59.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="PWuMA_d7wFQUBgpNn_Cz" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T03:23:22.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Cx8zlSrQofsJ8Ahw5Dsz" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="2585" dy="5948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -558,7 +558,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4530" y="1250" />
-              <mxPoint x="5055" y="1250" />
+              <mxPoint x="5310" y="1250" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -574,7 +574,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="y9hmc7ExkTuUqrcy4E5k-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-37">
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-37" target="y9hmc7ExkTuUqrcy4E5k-69">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="4265" y="1520" as="targetPoint" />
           </mxGeometry>
@@ -595,10 +595,10 @@
           <mxGeometry x="4490" y="1280" width="340" height="110" as="geometry" />
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-41" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;NodeHealthValidationActor&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="4910" y="1280" width="290" height="110" as="geometry" />
+          <mxGeometry x="5170" y="1290" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-43" value="这个用来检查 node health" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="4892.5" y="1390" width="325" height="30" as="geometry" />
+          <mxGeometry x="5120" y="1400" width="325" height="30" as="geometry" />
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-44" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=20;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -633,12 +633,6 @@
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-65" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;AzureKeyVaultSecretCreationActor&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="3760" y="1520" width="350" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="y9hmc7ExkTuUqrcy4E5k-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-66" target="y9hmc7ExkTuUqrcy4E5k-69">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="y9hmc7ExkTuUqrcy4E5k-66" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;InstanceStorageCreationActor&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="4120" y="1520" width="350" height="125" as="geometry" />
-        </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-68" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;AzureKeyVaultSecretCreationActor&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="4510" y="1520" width="350" height="125" as="geometry" />
         </mxCell>
@@ -653,6 +647,9 @@
               <mxPoint x="4820" y="1880" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#FF0A3B;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-69" target="y9hmc7ExkTuUqrcy4E5k-121">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-69" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;InstanceStorageCreationActor&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="4120" y="1725" width="350" height="125" as="geometry" />
@@ -692,8 +689,8 @@
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-83" value="backupStorageSpecs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="4970" y="2090" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y9hmc7ExkTuUqrcy4E5k-84" value="&lt;h1&gt;ManageDisk&lt;/h1&gt;&lt;div&gt;这里面每一个条目都是一个disk.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 在传参数的时候，可以先生成一个Guid&lt;/div&gt;&lt;div&gt;- 在添加条目的时候，可以直接用这个Guid来做为数据库里面的主键表示这个磁盘。&lt;/div&gt;&lt;div&gt;&amp;nbsp; 当创建成功之后，直接往这个数据库里面添加这个条目。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- ManageDisk里面，可能还需要加一个引用，就是replication_set_id。&lt;/div&gt;&lt;div&gt;&amp;nbsp; 通过这个replication_set_id，我可以知道当前这个磁盘是否是HA，以及通过replication_set_id&lt;/div&gt;&lt;div&gt;&amp;nbsp; 找到HA的primary和standby.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3300" y="580" width="930" height="360" as="geometry" />
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-84" value="&lt;h1&gt;&lt;font color=&quot;#ff0a3b&quot;&gt;ManageDisk&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;这里面每一个条目都是一个disk.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 在传参数的时候，可以先生成一个Guid&lt;/div&gt;&lt;div&gt;- 在添加条目的时候，可以直接用这个Guid来做为数据库里面的主键表示这个磁盘。&lt;/div&gt;&lt;div&gt;&amp;nbsp; 当创建成功之后，直接往这个数据库里面添加这个条目。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- ManageDisk里面，可能还需要加一个引用，就是replication_set_id。&lt;/div&gt;&lt;div&gt;&amp;nbsp; 通过这个replication_set_id，我可以知道当前这个磁盘是否是HA，以及通过replication_set_id&lt;/div&gt;&lt;div&gt;&amp;nbsp; 找到HA的primary和standby.&lt;br&gt;&lt;br&gt;- &lt;font color=&quot;#ff0a3b&quot;&gt;删除的时候&lt;/font&gt;，需要加上一个引用？ 在删除虚拟机的时候，不要一下子删除掉。比如在HA的时候，需要引用2次。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="580" width="930" height="380" as="geometry" />
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-86" target="y9hmc7ExkTuUqrcy4E5k-87">
           <mxGeometry relative="1" as="geometry" />
@@ -732,7 +729,7 @@
             <mxPoint x="12515.454545454544" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y9hmc7ExkTuUqrcy4E5k-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87">
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-87" target="y9hmc7ExkTuUqrcy4E5k-118">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="13069.090909090908" y="1160" as="targetPoint" />
           </mxGeometry>
@@ -768,7 +765,25 @@
           <mxGeometry x="12341" y="1140" width="320" height="120" as="geometry" />
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-118" value="AutogrowReconcileActor" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="12880" y="1160" width="320" height="120" as="geometry" />
+          <mxGeometry x="12760" y="1130" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-119" value="&lt;h1&gt;Attach添加在这里！&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#FF0A3B;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="1285" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-120" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=20;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4187" y="2194.5" as="sourcePoint" />
+            <mxPoint x="4247" y="2194.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-121" value="&lt;h1&gt;CreateDisk&lt;br&gt;在这里!&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#FF0A3B;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="1920" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-124" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=20;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5125" y="1344.5" as="sourcePoint" />
+            <mxPoint x="5184.999999999999" y="1344.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
