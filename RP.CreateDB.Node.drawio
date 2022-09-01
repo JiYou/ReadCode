@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T08:04:32.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3nXmkrC3CZ0VLkltb6cG" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T08:47:47.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="09_8v-fDBQqA28KKeolw" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="1422" dy="5378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -820,11 +820,17 @@
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-149" value="&lt;h1&gt;table&lt;/h1&gt;&lt;p&gt;AzureStorageAccount 这个表里面加一行&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#FF0A3B;" vertex="1" parent="1">
           <mxGeometry x="332.5" y="-4485" width="267.5" height="155" as="geometry" />
         </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#FF0A3B;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-150" target="y9hmc7ExkTuUqrcy4E5k-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-150" value="ProcessAsyncResult" style="whiteSpace=wrap;html=1;fontSize=20;fontColor=#FF0A3B;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="-4337.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-152" value="&lt;h1&gt;table&lt;/h1&gt;&lt;p&gt;AzureStorageAccount entity&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#FF0A3B;" vertex="1" parent="1">
           <mxGeometry x="330" y="-4330" width="267.5" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-153" value="" style="whiteSpace=wrap;html=1;fontSize=20;fontColor=#FF0A3B;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-4197.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
