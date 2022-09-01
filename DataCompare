@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T16:09:04.296Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0E7IeMKv8OUtOSdEWYMC" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T16:19:59.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_gZv43B6R0qGatD1lCFF" version="20.2.7" type="github">
   <diagram id="SI6vrYMQMFkVIOCMq6m6" name="Page-1">
     <mxGraphModel dx="4651" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -384,6 +384,143 @@
         </mxCell>
         <mxCell id="u9j_5MwzGZ6cSa7PgYvH-95" value="&lt;h1&gt;行修改器&lt;/h1&gt;&lt;div&gt;将需要去掉或者替换的内容换掉之后，再把内容生成md5拿去比对。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1480" y="2310" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-96" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-97" value="启动" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-98" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2304" y="270" as="sourcePoint" />
+            <mxPoint x="2304.29" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-99" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2306" y="200" as="sourcePoint" />
+            <mxPoint x="2430" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2366" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u9j_5MwzGZ6cSa7PgYvH-100" target="u9j_5MwzGZ6cSa7PgYvH-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-100" value="ConfigManager加载config" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-101" value="初始化compare的比较线程/TaskQueue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-105" value="&lt;h1&gt;采用异步&lt;/h1&gt;&lt;p&gt;所有的比较任务都是异步，并且只会占用一个线程&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="250" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-106" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="395" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-107" value="发送比比较任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-108" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2304.29" y="610" as="sourcePoint" />
+            <mxPoint x="2304.58" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-110" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2300" y="539.29" as="sourcePoint" />
+            <mxPoint x="2470" y="539.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u9j_5MwzGZ6cSa7PgYvH-111" target="u9j_5MwzGZ6cSa7PgYvH-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-111" value="Task模块找到合适的比较器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-112" value="将任务扔到TaskQueue里面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-114" value="Caller Thread" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="525" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-116" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2300" y="760" as="sourcePoint" />
+            <mxPoint x="2300" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-117" value="compare thread" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2185" y="685" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-118" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="u9j_5MwzGZ6cSa7PgYvH-119">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2295" y="710" as="sourcePoint" />
+            <mxPoint x="2480" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u9j_5MwzGZ6cSa7PgYvH-119" target="u9j_5MwzGZ6cSa7PgYvH-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-119" value="从Queue中取出比较任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u9j_5MwzGZ6cSa7PgYvH-120" target="u9j_5MwzGZ6cSa7PgYvH-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-120" value="选择合适的比较器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3070" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u9j_5MwzGZ6cSa7PgYvH-122" target="u9j_5MwzGZ6cSa7PgYvH-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-122" value="生成sql语句" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u9j_5MwzGZ6cSa7PgYvH-124" target="u9j_5MwzGZ6cSa7PgYvH-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-124" value="执行sql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3470" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u9j_5MwzGZ6cSa7PgYvH-126" target="u9j_5MwzGZ6cSa7PgYvH-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-126" value="将结果保存到文件/内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3670" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-128" value="生成比较结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3870" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-130" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="u9j_5MwzGZ6cSa7PgYvH-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3100" y="640" as="sourcePoint" />
+            <mxPoint x="4041.4285714285716" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-131" value="异步等待" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u9j_5MwzGZ6cSa7PgYvH-130">
+          <mxGeometry x="-0.1696" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-132" value="取得结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4050" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-133" value="&lt;h1&gt;启动流程&lt;/h1&gt;" style="text;html=1;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="72.5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-134" value="&lt;h1&gt;比对流程&lt;/h1&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="420" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="u9j_5MwzGZ6cSa7PgYvH-135" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="910" as="sourcePoint" />
+            <mxPoint x="2100" y="40" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
