@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T08:04:12.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="RFlbwR7IHI7R1A82LbJP" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T07:54:28.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="NEa2ht6xTiNP3_aOGj1U" version="20.2.3" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
-    <mxGraphModel dx="2585" dy="5948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1896" dy="5610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -647,9 +647,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="y9hmc7ExkTuUqrcy4E5k-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#FF0A3B;" edge="1" parent="1" source="y9hmc7ExkTuUqrcy4E5k-69" target="y9hmc7ExkTuUqrcy4E5k-121">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-69" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;InstanceStorageCreationActor&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="4090" y="1725" width="350" height="125" as="geometry" />
         </mxCell>
@@ -775,14 +772,38 @@
             <mxPoint x="4247" y="2194.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y9hmc7ExkTuUqrcy4E5k-121" value="&lt;h1&gt;CreateDisk&lt;br&gt;在这里!&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#FF0A3B;" vertex="1" parent="1">
-          <mxGeometry x="3820" y="1920" width="250" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-124" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=20;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5125" y="1344.5" as="sourcePoint" />
             <mxPoint x="5184.999999999999" y="1344.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-125" value="ServerCreationComputeParameters" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="4630" y="560" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-128" value="ServerCreationStorageParameters" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="4630" y="620" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-137" value="ServerCreationComputeParameters" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="4630" y="1040" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-138" value="ServerCreationStorageParameters" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="4630" y="980" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-139" value="ServerCreationComputeParameters" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="4660" y="725" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-140" value="ServerCreationStorageParameters" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="4660" y="785" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-141" value="spec.LogOnDiskId" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="4650" y="1360" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-142" value="&lt;h1&gt;CreateDisk&lt;br&gt;在这里!&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#FF0A3B;" vertex="1" parent="1">
+          <mxGeometry x="4370" y="1320" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-143" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Actor退出&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;如果遇到问题，要退出Actor。需要override GeneralExceptionHandler这个函数。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bydefault- 这个函数return false；也就是说会retry&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;如果遇到问题，有可能需要直接退出。那么就return true.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontColor=#FF0A3B;" vertex="1" parent="1">
+          <mxGeometry x="5080" y="420" width="580" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
