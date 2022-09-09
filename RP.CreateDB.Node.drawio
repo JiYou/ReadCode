@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T08:05:42.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_E7Y4z-oTgN27EcARHaX" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T02:27:57.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UjksgQJ01ocATfoi7yei" version="20.2.8" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
-    <mxGraphModel dx="813" dy="5079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="5285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -864,6 +864,9 @@
         </mxCell>
         <mxCell id="JpxrmhfrBMJHyhu52tb8-5" value="可以参考的PR paid iops enabled:&amp;nbsp;https://msdata.visualstudio.com/Database%20Systems/_git/orcasql-mysqlflex/pullrequest/842654?_a=files&amp;amp;path=/charts/custom-resources/templates/instances.yaml&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;就算是没有开启replica, ha的logical server也是有replication set的。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0A3B;" vertex="1" parent="1">
           <mxGeometry x="4530" y="-280" width="1080" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JpxrmhfrBMJHyhu52tb8-6" value="每周2的review PPT:&amp;nbsp;https://microsoftapc-my.sharepoint.com/:p:/g/personal/junsu_microsoft_com/ESX8KqKQA9tDhjB-HXr33RUBzstRZmEA7I3MXeTwyENy1g?e=RxDxsz" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0A3B;" vertex="1" parent="1">
+          <mxGeometry x="4515" y="-230" width="930" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
