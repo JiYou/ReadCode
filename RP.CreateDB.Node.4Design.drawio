@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T05:59:57.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jRI6gbm1JitEuWC-ZJ7O" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T06:00:18.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="qrChU9D0EiRXi8GCKjry" version="20.3.0" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="2721" dy="6272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y9hmc7ExkTuUqrcy4E5k-5" target="y9hmc7ExkTuUqrcy4E5k-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y9hmc7ExkTuUqrcy4E5k-5" value="&lt;h1&gt;Server.cs:602 UpsertServerAsync(ServerResource)&lt;/h1&gt;&lt;p&gt;&amp;nbsp;把logOnDisk从ServerResource里面拿出来！&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="y9hmc7ExkTuUqrcy4E5k-5" value="&lt;h1&gt;Server.cs:602 UpsertServerAsync(ServerResource)&lt;/h1&gt;&lt;p&gt;&amp;nbsp;ServerResource.LogOnDiskEnabled&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="745.0000000000009" y="245" width="445" height="150" as="geometry" />
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y9hmc7ExkTuUqrcy4E5k-7" target="y9hmc7ExkTuUqrcy4E5k-9" edge="1">
