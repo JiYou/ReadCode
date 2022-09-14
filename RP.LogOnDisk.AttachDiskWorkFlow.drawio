@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T07:38:02.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.3.0" etag="eXFL9v4CNfcvBEm7EHji" type="github"><diagram id="U2FGB9arhxRVS9faSqcJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-14T07:44:13.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vwQiJUxlY2hsumWUOCd2" version="20.3.0" type="github">
+  <diagram id="U2FGB9arhxRVS9faSqcJ" name="Page-1">
+    <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gHNqRvlQDcHfqnT_VosC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-1" value="Use OrcasInstanceId Find ReplicationSetId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gHNqRvlQDcHfqnT_VosC-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-8" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gHNqRvlQDcHfqnT_VosC-6">
+          <mxGeometry x="-0.3185" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gHNqRvlQDcHfqnT_VosC-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-10" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gHNqRvlQDcHfqnT_VosC-9">
+          <mxGeometry x="-0.2667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-4" value="ReplicationSet.LogOnDiskEnabled?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gHNqRvlQDcHfqnT_VosC-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-7" value="Filter &amp;lt;OrcastInstanceId, ManagedDiskId, OrcastInstanceRole&amp;gt; by&lt;br&gt;ReplicationSetID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-11" value="Original Logic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="295" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-14" value="AttachOperation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-15" value="Self owned disk, attach as ReadWrite" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="gHNqRvlQDcHfqnT_VosC-14">
+          <mxGeometry y="30" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHNqRvlQDcHfqnT_VosC-16" value="Same ReplicationSet, Primary/Master&#39;s disk, attach as ReadOnly" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="gHNqRvlQDcHfqnT_VosC-14">
+          <mxGeometry y="60" width="360" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
