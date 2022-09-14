@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T06:00:18.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="qrChU9D0EiRXi8GCKjry" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T06:03:54.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bzt7hzP2v0Cpflppym3E" version="20.3.0" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="2721" dy="6272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -56,11 +56,6 @@
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-18" value="&lt;h1&gt;UpsertServerManagementOperationV2.cs:752 InitiateOperation(operationStateMachine)&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- var tuple = this.GetSpec(operationStateMachine);&amp;nbsp; &amp;lt;- Get tuple 782 Line&lt;br&gt;&lt;/p&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;this.SaveSpec(operationStateMachine, tuple.rollbackSpec, creationSpec.InstanceId);&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Line 812&lt;/span&gt;&lt;/p&gt;var fsm = GeneralRequestHandlerStateMachine.CreateInstance(operationStateMachine.Context, creationSpec.SpecId, creationSpec.InstanceId, secreteInput);" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4250" y="-25" width="560" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="y9hmc7ExkTuUqrcy4E5k-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="y9hmc7ExkTuUqrcy4E5k-19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5140" y="187.5" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="y9hmc7ExkTuUqrcy4E5k-19" value="&lt;h1&gt;GeneralRequestHandlerStateMachine.cs:812&lt;br&gt;&lt;/h1&gt;&lt;p&gt;GeneralRequestHandlerStateMachine fsm；fsmContext.InitializeInstance(fsm)&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4860" y="37.5" width="560" height="70" as="geometry" />
