@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T06:03:54.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bzt7hzP2v0Cpflppym3E" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T06:05:31.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="kC3jUWWXATBABbvSBEPO" version="20.3.0" type="github">
   <diagram id="Utj4QRkRQI-RT1qHg1_4" name="Page-1">
     <mxGraphModel dx="2721" dy="6272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -275,11 +275,11 @@
         <mxCell id="RBFewMgyC1fiDn0zkRKi-5" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;AzureManagedDiskCreationActor&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="4765" y="1730" width="340" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="RBFewMgyC1fiDn0zkRKi-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="4645" y="1280" width="595" height="640" as="geometry" />
+        </mxCell>
         <mxCell id="RBFewMgyC1fiDn0zkRKi-6" value="spec.LogOnDiskId" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="4905" y="1800" width="195" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RBFewMgyC1fiDn0zkRKi-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=40;" vertex="1" parent="1">
-          <mxGeometry x="4645" y="1280" width="595" height="640" as="geometry" />
         </mxCell>
         <mxCell id="RBFewMgyC1fiDn0zkRKi-9" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;AzureManagedDiskCreationActor&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="5310" y="1505" width="340" height="110" as="geometry" />
