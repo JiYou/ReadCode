@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T08:07:56.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.3.0" etag="5SmbBQFn84hS9i1R43UV" type="github"><diagram id="bySJrJNSmSVs4bIrj--k">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-14T08:29:06.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zuZpJQCloLuDog2yzQuP" version="20.3.0" type="github">
+  <diagram id="bySJrJNSmSVs4bIrj--k" name="Page-1">
+    <mxGraphModel dx="2062" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cOoX-MVpoMaeTq3jnabt-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOoX-MVpoMaeTq3jnabt-1" target="cOoX-MVpoMaeTq3jnabt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOoX-MVpoMaeTq3jnabt-1" value="TombstonedServerDeletionActor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cOoX-MVpoMaeTq3jnabt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOoX-MVpoMaeTq3jnabt-2" target="cOoX-MVpoMaeTq3jnabt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOoX-MVpoMaeTq3jnabt-2" value="TombstonedInstanceDeletionActor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="210" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cOoX-MVpoMaeTq3jnabt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cOoX-MVpoMaeTq3jnabt-4" target="cOoX-MVpoMaeTq3jnabt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cOoX-MVpoMaeTq3jnabt-4" value="TombstonedInstanceDeletionActor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cOoX-MVpoMaeTq3jnabt-6" value="AzureManagedDiskDeletionActor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="470" width="200" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
