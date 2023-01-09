@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T06:05:43.933Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="g00ndDYpiCydZTV-Ojrj" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T06:27:56.493Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="7IiNX4KK0YGXUtkHXBbc" version="20.7.4" type="github">
   <diagram id="SI6vrYMQMFkVIOCMq6m6" name="Page-1">
-    <mxGraphModel dx="4209" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4578" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -604,7 +604,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gxZ_pqokjFZ5jytbfGNL-22" value="&lt;h1&gt;比较流程&lt;/h1&gt;&lt;p&gt;A为标准方!&lt;br&gt;A: 需要读取B, C上文件的某一行参与比较&lt;br&gt;&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;b&gt;第一步:&lt;/b&gt;A, B, C通读整个文件。然后需要记录每一行的以下信息：&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&amp;lt;行号，此行在文件的pos, 行的长度，行内容生成的SHA1&amp;gt;&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;br&gt;&lt;b&gt;第二步&lt;/b&gt;：然后B, C将结果列表，压缩后发给A&lt;/p&gt;&lt;p&gt;&lt;b&gt;第三步&lt;/b&gt;：A将收到的排序后的列表去重后，过滤到相同的行。&lt;/p&gt;&lt;p&gt;&lt;b&gt;第四步&lt;/b&gt;：将需要读取的行信息发送给B, C。B, C将相应行读出，压缩后发给A&lt;/p&gt;&lt;p&gt;&lt;b&gt;第5步&lt;/b&gt;：由A生成差异!&lt;/p&gt;&lt;p&gt;&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="gxZ_pqokjFZ5jytbfGNL-22" value="&lt;h1&gt;比较流程&lt;/h1&gt;&lt;p&gt;A为标准方!&lt;br&gt;A: 需要读取B, C上文件的某一行参与比较&lt;br&gt;&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;b&gt;第一步:&lt;/b&gt;A, B, C通读整个文件。然后需要记录每一行的以下信息：&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&amp;lt;行号，此行在文件的pos, 行的长度，行内容生成的SHA1&amp;gt;&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;br&gt;&lt;b&gt;第二步&lt;/b&gt;：然后B, C将结果列表，压缩后发给A&lt;/p&gt;&lt;p&gt;&lt;b&gt;第三步&lt;/b&gt;：A将收到的排序后的列表，过滤到相同的行。&lt;/p&gt;&lt;p&gt;&lt;b&gt;第四步&lt;/b&gt;：将需要读取的行信息发送给B, C。B, C将相应行读出，压缩后发给A&lt;/p&gt;&lt;p&gt;&lt;b&gt;第5步&lt;/b&gt;：由A生成差异!&lt;/p&gt;&lt;p&gt;&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="3470" width="930" height="320" as="geometry" />
         </mxCell>
         <mxCell id="73kEip-BmtD-9cSclinS-2" value="&lt;b&gt;Q&lt;/b&gt;: 空行，或者全是空白符的行如何处理？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
